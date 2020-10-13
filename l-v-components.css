@@ -1,0 +1,136 @@
+Good practices:
+
+Separating words with hyphens or forward slashes 
+Following an “order of operations” type structure. 
+Using lowercase letters only
+Practices to avoid:
+
+Using numbers and symbols
+Describing colors or using font types
+Focusing on component role
+
+Some factors to keep in mind are:
+
+Category: mobile, inverse, ui
+Type: header, hero, title, subtitle, paragraph, button, input, caption
+Size: large, medium, small, default
+Alignment: left, center, right
+
+
+Text Styles
+Structure:category/type/size/style/alignment
+Examples:para/primary/left; mobile/para/large/bold/right; para/primary/italic/left; inverse; para/small/center
+Usage examples:
+
+Good: para/primary/left
+Bad: para/caption/timesnewroman
+
+Layer Styles
+Structure:category/use/variation
+Examples:ui/input/default; fill/primary/hover; shadow/high
+
+
+Components
+Structure:category/type/element/variation, or organism/molecule/atom/variation
+Examples:btn/primary/hover; nav/header/mobile/dark; cards/media-block/complex/web
+
+Usage examples:
+
+Good: menu/dropdown/default
+Bad: menu_dropdown_1
+
+Colors
+Structure: use/variation
+Examples:primary/default; tertiary/light
+Usage examples:
+
+Good: brand/primary
+Bad: brand/green1
+
+A few questions that a Design API answers:
+What options are available?
+What options are boolean?
+What options are enumerations?
+What options can be combined?
+What options are mutually exclusive?
+What options are related to other components’ options?
+What are the default options?
+
+button
+
+gallery
+
+slider 
+
+image
+
+PAGE STRUCTURE  
+
+body
+
+header {
+    image (logo)
+    title
+    navigation
+    cart 
+    buttons
+    login
+    search
+}
+
+navigation
+
+sections {
+what goes here? example: hyphae.net
+background style
+image content
+slider
+buttons (slider, links, more, submit)
+text
+form field
+
+section naming convention example:
+sectionname1/
+}
+
+-title
+-subtitle
+-paragraph
+
+image style template {
+use in: 
+-single image
+-gallery
+-slider
+
+full spread
+margins (sm, med, lg)
+lightbox/no lightbox
+frame - none, rounded corners, circle, square
+
+naming conventions:
+image/slider/full
+image/gallery/rounded
+image/profile/square
+image/profile/circle
+image/sectionname/circle
+
+}
+footer
+
+slider {
+    image
+    video
+    gif
+    buttons
+    -side navigation
+    -bottom navigation/pagination
+    -links on slides
+    text-overlay
+    transition style
+    transition timing
+    responsive/screen size
+    
+}
+
+
